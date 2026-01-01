@@ -1,5 +1,18 @@
 {
-  "cache_time": 7200,
-  "api_site": {
-  }
+  "sites": [
+    {
+      "name": "飯太硬(綜合)",
+      "url": "http://饭太硬.top/tv"
+    },
+    {
+      "name": "肥貓資源",
+      "url": "http://我不是.肥猫.love:63/接口禁止贩卖"
+    }
+  ],
+  "lives": [
+    {
+      "name": "全球直播",
+      "url": "https://iptv-org.github.io/iptv/index.m3u"
+    }
+  ]
 }
