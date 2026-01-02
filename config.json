@@ -1,65 +1,29 @@
 {
   "cache_time": 9200,
   "api_site": {
-    "api_1": {
-      "name": "TV-1080資源",
-      "api": "https://api.1080zyku.com/inc/api_mac10.php",
-      "detail": "https://api.1080zyku.com"
-    },
-    "api_2": {
-      "name": "TV-量子資源",
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "detail": "https://cj.lziapi.com"
-    },
-    "api_3": {
-      "name": "TV-非凡資源",
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-      "detail": "https://cj.ffzyapi.com"
-    },
-    "api_4": {
-      "name": "TV-光速資源",
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "detail": "https://api.guangsuapi.com"
-    },
-    "api_5": {
-      "name": "TV-臥龍資源",
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
-      "detail": "https://collect.wolongzyw.com"
-    },
-    "api_6": {
-      "name": "TV-櫻花資源",
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "detail": ""
-    },
-    "api_7": {
-      "name": "TV-百度資源",
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "detail": "https://api.apibdzy.com"
-    },
-    "api_8": {
-      "name": "TV-暴風資源",
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "detail": ""
-    },
-    "api_9": {
-      "name": "TV-紅牛資源",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-      "detail": "https://www.hongniuzy2.com"
-    },
-    "api_10": {
-      "name": "TV-索尼資源",
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "detail": ""
-    }
+    "api_1": { "name": "1080高清資源", "api": "https://api.1080zyku.com/inc/api_mac10.php", "detail": "https://api.1080zyku.com" },
+    "api_2": { "name": "量子資源(秒播)", "api": "https://cj.lziapi.com/api.php/provide/vod", "detail": "https://cj.lziapi.com" },
+    "api_3": { "name": "非凡資源(穩定)", "api": "https://cj.ffzyapi.com/api.php/provide/vod", "detail": "https://cj.ffzyapi.com" },
+    "api_4": { "name": "光速資源(最新)", "api": "https://api.guangsuapi.com/api.php/provide/vod", "detail": "https://api.guangsuapi.com" },
+    "api_5": { "name": "臥龍資源(全)", "api": "https://collect.wolongzyw.com/api.php/provide/vod", "detail": "https://collect.wolongzyw.com" },
+    "api_6": { "name": "索尼資源", "api": "https://suoniapi.com/api.php/provide/vod", "detail": "" },
+    "api_7": { "name": "暴風資源", "api": "https://bfzyapi.com/api.php/provide/vod", "detail": "" },
+    "api_8": { "name": "櫻花資源(動漫)", "api": "https://m3u8.apiyhzy.com/api.php/provide/vod", "detail": "" },
+    "api_9": { "name": "百度資源", "api": "https://api.apibdzy.com/api.php/provide/vod", "detail": "https://api.apibdzy.com" },
+    "api_10": { "name": "紅牛資源", "api": "https://www.hongniuzy2.com/api.php/provide/vod", "detail": "https://www.hongniuzy2.com" },
+    "api_11": { "name": "豪華資源", "api": "https://hhzyapi.com/api.php/provide/vod", "detail": "https://hhzyapi.com" },
+    "api_12": { "name": "神馬資源", "api": "https://api.1080zyku.com/inc/apijson.php/", "detail": "https://api.1080zyku.com" },
+    "api_13": { "name": "金鷹資源", "api": "https://jyzyapi.com/api.php/provide/vod", "detail": "https://jyzyapi.com" },
+    "api_14": { "name": "閃電資源", "api": "https://sdzyapi.com/api.php/provide/vod", "detail": "https://sdzyapi.com" },
+    "api_15": { "name": "飄零資源", "api": "https://p2100.net/api.php/provide/vod", "detail": "https://p2100.net" },
+    "api_16": { "name": "丫丫資源", "api": "https://cj.yayazy.net/api.php/provide/vod", "detail": "https://cj.yayazy.net" },
+    "api_17": { "name": "極速資源", "api": "https://jszyapi.com/api.php/provide/vod", "detail": "https://jszyapi.com" },
+    "api_18": { "name": "虎牙資源", "api": "https://www.huyaapi.com/api.php/provide/vod", "detail": "https://www.huyaapi.com" },
+    "api_19": { "name": "U酷資源", "api": "https://api.ukuapi.com/api.php/provide/vod", "detail": "https://api.ukuapi.com" },
+    "api_20": { "name": "豆瓣資源", "api": "https://caiji.dbzy.tv/api.php/provide/vod", "detail": "https://caiji.dbzy.tv" }
   },
   "lives": [
-    {
-      "name": "台灣頻道",
-      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u"
-    },
-    {
-      "name": "全球直播",
-      "url": "https://iptv-org.github.io/iptv/index.m3u"
-    }
+    { "name": "台灣頻道", "url": "https://iptv-org.github.io/iptv/countries/tw.m3u" },
+    { "name": "全球直播", "url": "https://iptv-org.github.io/iptv/index.m3u" }
   ]
 }
