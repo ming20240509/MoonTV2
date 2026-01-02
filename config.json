@@ -1,19 +1,65 @@
 {
   "cache_time": 9200,
-  "sites": [
-    { "name": "1080資源 (畫質首選)", "url": "https://api.1080zyku.com/inc/api_mac10.php" },
-    { "name": "量子資源 (速度極快)", "url": "https://cj.lziapi.com/api.php/provide/vod" },
-    { "name": "非凡資源 (穩定老牌)", "url": "https://cj.ffzyapi.com/api.php/provide/vod" },
-    { "name": "光速資源 (更新最快)", "url": "https://api.guangsuapi.com/api.php/provide/vod" },
-    { "name": "臥龍資源 (資源最齊)", "url": "https://collect.wolongzyw.com/api.php/provide/vod" },
-    { "name": "百度資源 (線路穩定)", "url": "https://api.apibdzy.com/api.php/provide/vod" },
-    { "name": "紅牛資源 (備用首選)", "url": "https://www.hongniuzy2.com/api.php/provide/vod" },
-    { "name": "索尼資源 (海外推薦)", "url": "https://suoniapi.com/api.php/provide/vod" },
-    { "name": "櫻花資源 (動漫強項)", "url": "https://m3u8.apiyhzy.com/api.php/provide/vod" },
-    { "name": "暴風資源 (高併發穩定)", "url": "https://bfzyapi.com/api.php/provide/vod" }
-  ],
+  "api_site": {
+    "api_1": {
+      "name": "TV-1080資源",
+      "api": "https://api.1080zyku.com/inc/api_mac10.php",
+      "detail": "https://api.1080zyku.com"
+    },
+    "api_2": {
+      "name": "TV-量子資源",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "detail": "https://cj.lziapi.com"
+    },
+    "api_3": {
+      "name": "TV-非凡資源",
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod",
+      "detail": "https://cj.ffzyapi.com"
+    },
+    "api_4": {
+      "name": "TV-光速資源",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "detail": "https://api.guangsuapi.com"
+    },
+    "api_5": {
+      "name": "TV-臥龍資源",
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+      "detail": "https://collect.wolongzyw.com"
+    },
+    "api_6": {
+      "name": "TV-櫻花資源",
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "detail": ""
+    },
+    "api_7": {
+      "name": "TV-百度資源",
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "detail": "https://api.apibdzy.com"
+    },
+    "api_8": {
+      "name": "TV-暴風資源",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "detail": ""
+    },
+    "api_9": {
+      "name": "TV-紅牛資源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "detail": "https://www.hongniuzy2.com"
+    },
+    "api_10": {
+      "name": "TV-索尼資源",
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "detail": ""
+    }
+  },
   "lives": [
-    { "name": "台灣頻道", "url": "https://iptv-org.github.io/iptv/countries/tw.m3u" },
-    { "name": "全球綜合", "url": "https://iptv-org.github.io/iptv/index.m3u" }
+    {
+      "name": "台灣頻道",
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u"
+    },
+    {
+      "name": "全球直播",
+      "url": "https://iptv-org.github.io/iptv/index.m3u"
+    }
   ]
 }
